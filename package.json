@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "preview": "vite preview",
     "create-demo-user": "tsx scripts/create-demo-user.js",
-    "debug-auth": "tsx scripts/debug-auth.js"
+    "debug-auth": "tsx scripts/debug-auth.js",
+    "run-migration": "tsx scripts/run-migration.js"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^2.2.0",
